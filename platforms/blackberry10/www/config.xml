@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="BBBoilerPlate" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets">
+    <feature name="com.blackberry.app" value="com.blackberry.app" />
+    <feature name="com.blackberry.invoke" value="com.blackberry.invoke" />
+    <feature name="com.blackberry.invoke.card" value="com.blackberry.invoke.card" />
+    <feature name="com.blackberry.ui.cover" value="com.blackberry.ui.cover" />
+    <feature name="com.blackberry.ui.toast" value="com.blackberry.ui.toast" />
+    <feature name="com.blackberry.utils" />
+    <name>BlackBerry Boilerplate</name>
+    <author>Your Name</author>
+    <description>A sample WebWorks application</description>
+    <icon src="images/icon.png" />
+    <rim:splash src="images/splash-1280x768.png" />
+    <rim:splash src="images/splash-1280x720.png" />
+    <rim:splash src="images/splash-720x720.png" />
+    <access origin="*" />
+    <content src="local:///index.html" />
+    <rim:permissions>
+        <rim:permit>bbm_connect</rim:permit>
+        <rim:permit>access_shared</rim:permit>
+    </rim:permissions>
+</widget>
