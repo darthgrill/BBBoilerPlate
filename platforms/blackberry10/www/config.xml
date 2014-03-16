@@ -4,6 +4,7 @@
     <feature name="com.blackberry.invoke" value="com.blackberry.invoke" />
     <feature name="com.blackberry.invoke.card" value="com.blackberry.invoke.card" />
     <feature name="com.blackberry.ui.cover" value="com.blackberry.ui.cover" />
+    <feature name="com.blackberry.ui.dialog" value="com.blackberry.ui.dialog" />
     <feature name="com.blackberry.ui.toast" value="com.blackberry.ui.toast" />
     <feature name="com.blackberry.utils" />
     <name>BlackBerry Boilerplate</name>
